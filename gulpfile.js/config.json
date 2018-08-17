@@ -1,0 +1,41 @@
+{
+  "src": {
+    "root": "./",
+    "scss": "./src/scss/**/*.scss",
+    "js": "./src/js/**/*.js",
+    "image": "./assets/images/*"
+  },
+  "dest": {
+    "root": "./",
+    "css": "./dist/css",
+    "js": "./dist",
+    "image": "./assets/images"
+  },
+  "opts": {
+    "renamemin": {
+      "suffix": ".min"
+    }
+  },
+  "tasks": {
+    "vendor": {
+      "src": [
+        "./node_modules/jquery/dist/jquery.js",
+        "./node_modules/slick-carousel/slick/slick.js",
+        "./node_modules/modal-video.js/js/modal-video.js"
+      ]
+    },
+    "size": {
+      "opts": {
+        "showFiles": true,
+        "gzip": true
+      }
+    }
+  },
+  "postcssPlugins": {
+    "browsers": [
+      "last 10 versions",
+      "Explorer >= 8",
+      "Firefox >= 10"
+    ]
+  }
+}
