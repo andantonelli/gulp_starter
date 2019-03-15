@@ -9,6 +9,6 @@ const browserSync = require('browser-sync').create()
 gulp.task('style', function() {
   gulp.src(config.src.scss)
     .pipe(sass())
-    .pipe(gulp.dest(config.src.dest.css))
+    .pipe(gulp.dest(config.dest.css))
     .pipe(browserSync.stream())
 })
