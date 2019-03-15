@@ -9,20 +9,20 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^9.1.1",
-    "browser-sync": "^2.24.6",
-    "cssnano": "^4.0.5",
+    "autoprefixer": "^9.5.0",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.10",
     "gulp": "^3.9.1",
     "gulp-notify": "^3.2.0",
-    "gulp-plumber": "^1.2.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "gulp-size": "^3.0.0",
-    "gulp-sourcemaps": "^2.6.4",
+    "gulp-sourcemaps": "^2.6.5",
     "pixrem": "^4.0.1",
     "postcss-scss": "^2.0.0",
-    "require-dir": "^1.0.0",
+    "require-dir": "^1.2.0",
     "rucksack-css": "^1.0.2"
   }
 }
